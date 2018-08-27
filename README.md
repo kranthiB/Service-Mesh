@@ -31,6 +31,9 @@ Does it feasible to face these challenges on already deployed / on the top of mi
 * A given micro-service won’t directly communicate with the other micro-service. Rather all service-to-service communications will take place on-top of a software component called side-car proxy.
 
 ### Common features offered from Service Mesh
+
+![image](https://user-images.githubusercontent.com/20100300/44647208-06c10a80-a9fb-11e8-8391-e51444887529.png)
+
  The different functionalities offered through these features are
  
  * It enhance reliability by supporting circuit-breaking, retries and timeouts, fault injection, fault handling, load balancing and failover
@@ -59,7 +62,7 @@ Does it feasible to face these challenges on already deployed / on the top of mi
     * Tightly coupled to network such as circuit breaking, timeouts, retries, client side LB etc
  * Control Plane
     * Quite useful to support capabilities like access control, observability, service discovery etc
-    
+   
 ### Service mesh proxy deployment models
 
 It can be deployed in two different patterns
