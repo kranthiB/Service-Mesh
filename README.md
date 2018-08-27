@@ -122,6 +122,8 @@ Logically split into a
     *	does not touch any packets / requests in the system 
     *	it turns all of the data planes into a distributed system
 
+![untitled](https://user-images.githubusercontent.com/20100300/44647639-40464580-a9fc-11e8-94e3-a6e9807e630d.png)
+
 Different features provided by Istio and Linkerd explained(in detail) in the below table
 
 Features  | Istio  |  Linkerd
