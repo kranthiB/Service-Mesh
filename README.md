@@ -83,6 +83,8 @@ It can be deployed in two different patterns
     
 ### Request Flow – Service mesh, ingress, egress
 
+![image](https://user-images.githubusercontent.com/20100300/44647562-fbbaaa00-a9fb-11e8-94d4-a1edb3b140dd.png)
+
 *	By default, proxies handle only intra-service mesh cluster traffic – between the source (upstream) and the destination (downstream) services. 
 *	To expose a service which is part of service mesh to outside world, it must enable ingress traffic
 *	Similarly, if a service depends on an external service , it requires enabling the egress traffic
