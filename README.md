@@ -62,6 +62,8 @@ Does it feasible to face these challenges on already deployed / on the top of mi
     * Tightly coupled to network such as circuit breaking, timeouts, retries, client side LB etc
  * Control Plane
     * Quite useful to support capabilities like access control, observability, service discovery etc
+    
+![untitled](https://user-images.githubusercontent.com/20100300/44647451-bac29580-a9fb-11e8-8a4f-3d600494d618.png)
    
 ### Service mesh proxy deployment models
 
